@@ -1,0 +1,40 @@
+1. Install Arduino Software
+
+a. Make a google account (if not available)
+b. Setup a Google Firebase (console.firebase.google.com)
+c. Create a New Project 
+d. Click on Database --> Create Database --> Select Testing Mode --> Move towards Real-time Database
+e. Move towards the Service Accounts --> Click on Database Secrets: Copy the Password 
+
+https://iotled-83ffe-default-rtdb.firebaseio.com/
+
+Key: hf0GmvcwhxOhHs7LZ8aKx43VoqDyOjxx34rivB3c
+
+
+2. Add link in Preferences Section. Here is the link:
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+
+3. Go in Tools --> Board "Arduino Uno" --> Boards Manager --> Install Software, Search Esp8266 (2.7.4)
+
+
+4. In Tools, Select Board as Generic ESP8266
+
+
+5. Install USB driver CH341SER.zip file using the Download Link for Windows (The appropiate ID is written at back of the MCU Board): 
+https://www.arduined.eu/ch340-windows-8-driver-download/
+
+
+6. Now connect the Node MCU with your computer
+
+
+
+7. Install Two Libraries:
+
+Take Zip files from Github..
+a. Google FirebaseExtended Library (Latest)
+b. ArduinoJSON Library (version downgrade to 5.3.1)
+
+From Manage Option:
+c.  Firebase Arduino
+
